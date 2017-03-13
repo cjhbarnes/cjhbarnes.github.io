@@ -1,0 +1,50 @@
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+.page-foot {
+  padding-top: $global-spacing-unit * 8;
+  padding-bottom: $global-spacing-unit * 8;
+  color: $color-white;
+  font-weight: bold;
+  margin-bottom: $global-spacing-unit * 6;
+  @include mq($until: md) {
+    padding-top: $global-spacing-unit * 6;
+    padding-bottom: $global-spacing-unit * 6;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+  .page-foot__cta {
+    margin-top: $global-spacing-unit * 4;
+    display: inline-block;
+    @include font-size($font-size-h2, $important: true);
+
+    @include mq($until: md) {
+      @include font-size(18px, $important: true);
+    }
+  }
+
+  .social-list {
+    font-weight: normal;
+    list-style: none;
+    margin: 0;
+
+    li {
+      float: left;
+      margin-right: $global-spacing-unit * 4;
+      font-size: 16px;
+    }
+
+  }
+
+
+.page--article {
+  .page-foot {
+    margin-top: $global-spacing-unit * 15;
+  }
+}

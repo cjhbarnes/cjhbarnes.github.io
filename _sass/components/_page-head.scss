@@ -1,0 +1,26 @@
+/* ==========================================================================
+   PAGE HEAD
+   ========================================================================== */
+
+.page-head {
+  padding-bottom: $global-spacing-unit * 15;
+
+  @include mq($until: md) {
+    padding-bottom: $global-spacing-unit * 6;
+  }
+}
+
+
+.page-head__text {
+  padding-top: $global-spacing-unit * 15;
+  max-width: 900px;
+  margin-bottom: 0;
+
+  @include mq($until: md) {
+    padding-top: $global-spacing-unit * 6;
+  }
+
+    span {
+      color: $color-brand-primary;
+    }
+}

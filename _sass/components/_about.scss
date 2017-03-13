@@ -1,0 +1,24 @@
+/* ==========================================================================
+   ABOUT
+   ========================================================================== */
+
+.page--about {
+  .page-head {
+    padding-bottom: 0;
+  }
+  p {
+    max-width: 700px;
+
+      &:first-child {
+        margin-bottom: 0;
+      }
+  }
+}
+.experience {
+  margin-bottom: $global-spacing-unit*15;
+
+  @include mq($until: md) {
+   margin-bottom: 0;
+  }
+
+}

@@ -1,0 +1,35 @@
+/* ==========================================================================
+   WORK LIST
+   ========================================================================== */
+
+.work__list {
+  margin-top: $global-spacing-unit * 6;
+  line-height: 1;
+}
+
+  .work__title,
+  .work__meta {
+    display: inline-block;
+
+
+    @include mq($until: md) {
+      display: block;
+      line-height: 1.5;
+    }
+  }
+
+  .work__title {
+    @include mq($from: md) {
+      margin: 0;
+    }
+  }
+
+  .work__meta {
+    color: $color-grey-light;
+    display: block;
+    margin-top: $global-spacing-unit;
+
+    @include mq($until: md) {
+      padding-left: 0;
+    }
+  }

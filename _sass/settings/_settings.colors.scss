@@ -1,0 +1,32 @@
+/* ==========================================================================
+   COLORS
+   ========================================================================== */
+
+/**
+ * Set up a colour palette which allows us to theme the entire project from one
+ * location.
+ */
+
+/* Colour palette */
+$color-brand-primary:               #FFBA00 !default;
+$color-brand-primary-highlight:     lighten($color-brand-primary, 5%) !default;
+$color-brand-primary-shadow:        darken($color-brand-primary,  5%) !default;
+
+$color-ui:                          #e7e7e7 !default;
+
+$color-white:                       #fff !default;
+
+$color-grey-light:                  #B3B4B4;
+
+
+
+
+
+// Reassign literal variables to meaningful ones.
+$color-page-text:                       #28292B;
+$color-page-border:                     $color-ui;
+$color-page-background:                 #FAFAFA;
+
+$color-links:                           $color-brand-primary;
+
+$color-pre-background:                  $color-page-text;

@@ -1,0 +1,58 @@
+/* ==========================================================================
+   POST
+   ========================================================================== */
+
+.post__list {
+
+  .post__title  {
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+
+      a {
+        color: $color-page-text;
+      }
+
+  }
+
+}
+
+
+.post__date {
+  color: $color-grey-light;
+  margin-bottom: $global-spacing-unit;
+  @include font-size(14px);
+}
+
+
+.post__content {
+  padding-top: $global-spacing-unit * 10;
+  padding-bottom: $global-spacing-unit * 15;
+
+  @include mq($until: md) {
+    padding-top: $global-spacing-unit * 6;
+    padding-bottom: $global-spacing-unit * 6;
+  }
+
+    h1 {
+      max-width: 700px;
+    }
+
+    p {
+      max-width: 700px;
+    }
+
+    ul,
+    ol {
+      max-width: 700px - 48px;
+
+      &.unslider-wrap {
+        max-width: none;
+      }
+    }
+
+    h3, h4 {
+      margin-bottom: $global-spacing-unit * 2;
+      margin-top: $global-spacing-unit * 6;
+    }
+}

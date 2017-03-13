@@ -1,0 +1,207 @@
+/* ==========================================================================
+   SITE NAVIGATION
+   ========================================================================== */
+
+.site-nav__home-link {
+    display: block;
+    float: left;
+    font-weight: bold;
+    margin-right: $global-spacing-unit * 8;
+}
+
+ // Set a consistent style for triggers for the responsive nav.
+ @mixin triggers() {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $color-page-text;
+
+   &:hover,
+   &:focus {
+     text-decoration: none;
+   }
+ }
+
+
+.site-nav {
+ @include clearfix();
+ border-bottom: 1px solid $color-page-border;
+}
+
+  /**
+   * On smaller screens, this is the link that will open the responsive nav.
+   */
+  .site-nav__open {
+    @include triggers();
+    float: right;
+    line-height: 80px;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+
+    &:before {
+     content: "☰ ";
+    }
+
+    @media (min-width: 720px) {
+     display: none;
+    }
+
+  }
+
+  /**
+   * The invisible target that will power the responsive nav’s open/close.
+   */
+  .site-nav__target {
+   position: fixed;
+   top:  0;
+   left: 0;
+  }
+
+  /**
+   * The great big list of links that gets pushed and pulled around across
+   * breakpoints. Things get a little hairy.
+   *
+   * 1. Hide the nav off-screen until we need it.
+   */
+  .site-nav__list {
+    margin:  0;
+    padding: 0;
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    padding: 50px 8% 0 8%;
+    right:  0;
+    bottom: 0;
+    left:   0;
+    z-index: 1;
+    -webkit-transform: translateX(100%); /* [1] */
+      -moz-transform: translateX(100%); /* [1] */
+       -ms-transform: translateX(100%); /* [1] */
+        -o-transform: translateX(100%); /* [1] */
+           transform: translateX(100%); /* [1] */
+    -webkit-transition: 0.2s;
+      -moz-transition: 0.2s;
+       -ms-transition: 0.2s;
+        -o-transition: 0.2s;
+           transition: 0.2s;
+    will-change: transform;
+    background-color: rgba(255,255,255,1);
+
+    @supports (backdrop-filter: blur(5px)) {
+     background-color: rgba(255,255,255,1);
+     backdrop-filter: blur(5px);
+    }
+
+    /**
+     * If we’re targetting the nav, then don’t hide it.
+     */
+    .site-nav__target:target + & {
+     -webkit-transform: none;
+        -moz-transform: none;
+         -ms-transform: none;
+          -o-transform: none;
+             transform: none;
+    }
+
+    /**
+     * Unhide it permanently on larger screens.
+     */
+    @media (min-width: 720px) {
+      position: relative;
+      top:    auto;
+      right:  auto;
+      bottom: auto;
+      left:   auto;
+      padding: 0;
+      background-color: transparent;
+      overflow: visible;
+      backdrop-filter: none;
+      -webkit-transform: none;
+        -moz-transform: none;
+         -ms-transform: none;
+          -o-transform: none;
+             transform: none;
+    }
+
+  }
+
+
+
+
+
+   /**
+    * Each list item in the nav gets its own class. Items are stacked by
+    * default, and horizontally arranged on wider screens.
+    */
+   .site-nav__item {
+
+     @media (min-width: 720px) {
+       position: relative;
+       float: left;
+       line-height: 80px;
+     }
+
+   }
+
+
+
+
+
+   /**
+    * The link for closing the nav again.
+    */
+   .site-nav__item--close {
+
+       @media (min-width: 720px) {
+         display: none;
+       }
+
+    }
+
+      .site-nav__close {
+        @include triggers();
+        -webkit-mask: url(../images/icon-close.svg) no-repeat;
+        mask: url(../images/icon-close.svg) no-repeat;
+        width: 26px;
+        height: 20px;
+        background-size: contain;
+        background-color: $color-page-text;
+        position: fixed;
+        top: 30px;
+        right: 30px;
+      }
+
+      /**
+       * Links in the main tier of the nav.
+       */
+      .site-nav__link {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+
+        @include mq($until: small) {
+          display: block;
+          border-bottom: 1px solid $color-page-border;
+          padding: $global-spacing-unit * 4 0;
+        }
+
+        @media (min-width: 720px) {
+          font-size: 16px;
+          margin-right: $global-spacing-unit * 8;
+          padding-left: 0;
+          padding-top: 0;
+          padding-bottom: 0;
+          font-weight: 300;
+          color: $color-page-text;
+        }
+
+      }
+
+
+
+@media (min-width: 720px) {
+.page--home .site-nav__home,
+.page--about .site-nav__about {
+    color: darken($color-links, 10%);
+}
+}

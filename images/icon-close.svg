@@ -1,0 +1,13 @@
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Templates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-7" transform="translate(-325.000000, -30.000000)" fill="#252729">
+            <g id="icon-close" transform="translate(325.000000, 30.000000)">
+                <path d="M7.77817459,9.89949494 L0,17.6776695 L2.12132034,19.7989899 L9.89949494,12.0208153 L17.6776695,19.7989899 L19.7989899,17.6776695 L12.0208153,9.89949494 L19.7989899,2.12132034 L17.6776695,3.55271368e-15 L9.89949494,7.77817459 L2.12132034,0 L3.55271368e-15,2.12132034 L7.77817459,9.89949494 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

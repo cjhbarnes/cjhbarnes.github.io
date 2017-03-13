@@ -1,0 +1,26 @@
+/* ==========================================================================
+   CODE
+   ========================================================================== */
+
+code, kbd, samp {
+  color: #859900;
+  font-family: Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+  font-style: normal;
+}
+
+pre {
+  white-space: pre;
+  word-wrap: normal;
+  overflow: auto;
+  padding: $global-spacing-unit;
+  background-color: $color-pre-background;
+  border-radius: 3px;
+
+  &,
+  code, kbd, samp {
+    color: $color-white;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+}

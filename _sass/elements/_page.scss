@@ -1,0 +1,22 @@
+/* ==========================================================================
+   PAGE
+   ========================================================================== */
+
+/**
+ * Page-level styling (e.g. HTML and BODY elements).
+ */
+
+html {
+  @include font-size(18px);
+  line-height: 30px;
+  color: $color-page-text;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+img {
+  max-width: 100%;
+}

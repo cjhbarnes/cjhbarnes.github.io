@@ -1,0 +1,50 @@
+---
+layout: page
+page-class: page--home
+title:
+masthead-title: <span>Hello.</span> I’m Chris Barnes, a digital product designer. UX is central to everything I do. I love to work on meaningful projects with inspiring, creative people.
+---
+
+<section class="band band--tint work">
+
+  <div class="o-wrapper">
+
+    <h3 class="u-h1">Case Studies</h3>
+
+    <ul class="list-ui work__list">
+      <li class="list-ui__item">
+        <h3 class="work__title"><a href="/case-studies/redesigning-a-products-integration-process/">Redesigning a product's integration process.</a></h3>
+        <span class="work__meta">UX / UI, Design lead, Frontend development</span>
+      </li>
+      <li class="list-ui__item">
+        <h3 class="work__title"><a href="/case-studies/integration-statistics-dashboard/">Integration statistics dashboard</a></h3>
+        <span class="work__meta">UX / UI, Design lead</span>
+      </li>
+      <li class="list-ui__item">
+        <h3 class="work__title"><a href="/case-studies/saveup/">SaveUP</a></h3>
+        <span class="work__meta">UX / UI design</span>
+      </li>
+    </ul>
+
+  </div>
+
+</section> <!-- END: case-studies -->
+
+<section class="band post">
+
+  <div class="o-wrapper">
+
+    <h3 class="u-h1">Latest Articles</h3>
+
+    <ul class="list-ui list-ui--small post__list">
+      {% for post in site.posts offset: 0 limit: 4  %}
+      <li class="list-ui__item">
+        <time class="post__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%-d %B, %Y" }}</time>
+        <h3 class="post__title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+
+</section> <!-- END: post -->

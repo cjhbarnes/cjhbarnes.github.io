@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% include nav.html %}
+
+<div class="o-wrapper">
+
+  <article class="post__content">
+
+    <time class="post__date" datetime="{{ page.date | date: "%Y-%m-%d" }}"  itemprop="datePublished">{{ page.date | date: "%-d %B, %Y" }}</time>
+
+    <h1 itemprop="name headline">{{ page.title }}</h1>
+
+    {{ content }}
+
+  </article>
+
+</div>
+
+{% include footer.html %}
