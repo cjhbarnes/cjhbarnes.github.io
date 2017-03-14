@@ -13,7 +13,7 @@ next-case-study-url: /case-studies/integration-statistics-dashboard/
 In late 2015 I led a design project to redesign the process of how we integrated our clients and their e-commerce platform with one or a number of products. The current integration process was causing clients to become disengaged and delay the process which had knock on effect of delaying the recurring revenue entering into the companies cash flow. The goal of this project was to improve the customers experience so they would become more engaged in the intregration process.
 
 ### The current process
-In late 2015 I led a design project to redesign the process of how we integrated our clients and their e-commerce platform with one or a number of products. The current integration process was causing clients to become disengaged and delay the process which had knock on effect of delaying the recurring revenue entering into the companies cash flow. The goal of this project was to improve the customers experience so they would become more engaged in the intregration process.
+First, we needed to gain an understanding the current integration process. We interviewed both external and internal clients of various teams and created a number of customer journey maps where we documented objectives, tools used, tasks and most importantly the pain points of current integration process.
 
 <figure><img src="/images/process--cjm-1.jpg" alt="TAM customer journey mapping"></figure>
 
