@@ -3,9 +3,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  {% if page.page-class == "page--process"
   <link rel="preload" href="/images/process--masthead.png" as="image">
+  {% if page.page-class == "page--metrics" %}
   <link rel="preload" href="/images/metrics--masthead.png" as="image">
+  {% endif %}
+  {% if page.page-class == "page--save-up" %}
   <link rel="preload" href="/images/save-up--masthead.jpg" as="image">
+  {% endif %}
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
