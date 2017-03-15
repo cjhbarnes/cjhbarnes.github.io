@@ -10,22 +10,22 @@ next-case-study-url: /case-studies/integration-statistics-dashboard/
 <figure><img class="image--masthead" src="/images/process--masthead.jpg" alt="Integration process"></figure>
 
 ### The project
-In late 2015 I led a design project to redesign the process of how we integrated our clients and their e-commerce platform with one or a number of products. The current integration process was causing clients to become disengaged and delay the process which had knock on effect of delaying the recurring revenue entering into the companies cash flow. The goal of this project was to improve the customers experience so they would become more engaged in the intregration process.
+In late 2015 I led a project to redesign the process of integrating our clients and their e-commerce platform with our products. The integration system in use was causing clients to become disengaged, causing processes to be delayed and therefore delaying the recurring revenue entering the company. The goal of this project was to improve the client's experience so they would become more engaged in the integration process and reduce the number of delays.
 
 ### The current process
-First, we needed to gain an understanding the current integration process. We interviewed both external and internal clients of various teams and created a number of customer journey maps where we documented objectives, tools used, tasks and most importantly the pain points of current integration process.
+First, we needed to gain an understanding of the current integration process. We interviewed both external and internal clients of various teams and created a number of customer journey maps where we documented objectives, tools used, tasks and most importantly the pain points of current integration process.
 
 <figure><img src="/images/process--cjm-1.jpg" alt="TAM customer journey mapping"></figure>
 
 ### What needed to be fixed
-During the mapping exerice it became extremely clear that we had to solve the following problems.
+During the mapping exercise it became apparent that we had to solve the following problems:
 
-1.  Large number of documents and tools scattered thoughout the process. This leads to confusion, at times, between the client and the product manager
-2.  Decentralisation of information about the process, this places an unneeded strain on the relationship with the client
-3.  Large amount of rework to validate files sent by clients
-4.  Months pass between the signing of the proposal, and the customer actually see any of the companies product(s) or interfaces. The longer this period is the more the client becomes disengaged with the integration process
+1.  Large number of documents and tools scattered throughout the process, leading to confusion between client and project manager.
+2.  Decentralisation of information about the process.
+3.  Large amount of rework to validate files sent by clients.
+4.  Lengthy period between signing of the proposal and activation of the company’s product(s) led to clients becoming disengaged with the process.  
 
-With these points in mind we proposed a new integration process (see the images below). The new process aims to solve the above problems by centralising the management, tools and information of the integration process in one place - the integration dashboard. This will solve the problems by allowing us to centralise 90% of the required information, greatly reduce the number of tools and employees involvd in the process and allow both the project manager and client to manage the integration project from one place.
+With these points in mind we proposed a new integration process (see images below). The Integration Dashboard, by centralising 90% of the required information, greatly reduced the number of tools and employees involved in the integration process. With management, tools and information in one place, there was no longer an issue with scattered documents and tools, and both the project manager and the client were able to manage the integration project leading to less confusion and quicker turnarounds.   
 
 <div class="unslider slideshow">
   <ul>
@@ -40,21 +40,20 @@ With these points in mind we proposed a new integration process (see the images 
 </div>
 
 ### Building the MVP.
-We designed and buid a prototype of the integration dashboard which we tested with both internal and external clients. Once we had validated that our solution would improve the customers integration experience we worked closely with the development team to implement an MVP version of the dashboard. Below are a few screens of the integration dashboard.
+A prototype of the integration dashboard was built and then tested with both internal and external clients. Once we had proved that our solution enhanced the customer experience, we worked closely with the development team to implement an MVP version of the dashboard, which can be seen below. 
 
 #### Overview screen
-
-This screen is only accessable to employees of the company. Its goal is to give project managers, customer service managers and directors a snapshot of the active integrations and how there are progressing. It also allows project managers to create a new integration project which can be edited directly in the dashboard, this functionality allowed us to remove 2 tools from the integration integration process.
+This screen is only accessible to employees of the company. It gives project managers, customer service managers and directors a snapshot of the active integrations and their progression. Project managers are able to create projects and then edit them directly in the dashboard, enabling us to reduce the number of tools needed within the integration process.
 
 <figure><img src="/images/process--overview.png" alt="Integration overview screen"></figure>
 
 #### Project screen
-The client will be directly redirected to this screen after logging In. Its goal is to give the client a clear overview of the process of the integration in general and at a task level.
+The client is taken directly to this screen after logging in, where they are given a clear overview of the integration process both generally and for each individual task. 
 
 <figure><img src="/images/process--project.png" alt="Integration overview screen"></figure>
 
 #### Task screen
-One of the pain points we discovered during the customer journey mapping was that the client had to access documentation in one place and had to input the file or URL in another in order to complete the task. This created a lot of questions and frustation for our clients. We joined the documentation, the input and create a comment area for each task so that the client has all the information and support to complete the task in the same place.
+The customer journey mapping highlighted a significant problem: the client was required to input the file or URL in a separate area to their documentation. This lengthened the time clients needed to complete tasks, causing frustration and questions. The task screen was created with this in mind. By joining the documentation and input for seamless completion of tasks, as well as incorporating comment areas, the client is provided with all the information and support needed in one place.
 
 <figure><img src="/images/process--task.png" alt="Integration overview screen"></figure>
 

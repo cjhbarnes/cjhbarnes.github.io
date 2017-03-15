@@ -2,13 +2,6 @@
    SITE NAVIGATION
    ========================================================================== */
 
-.site-nav__home-link {
-    display: block;
-    float: left;
-    font-weight: bold;
-    margin-right: $global-spacing-unit * 8;
-}
-
  // Set a consistent style for triggers for the responsive nav.
  @mixin triggers() {
   font-size: 18px;
@@ -183,6 +176,10 @@
           display: block;
           border-bottom: 1px solid $color-page-border;
           padding: $global-spacing-unit * 4 0;
+
+          &.site-nav__contact {
+            display: none;
+          }
         }
 
         @media (min-width: 720px) {
