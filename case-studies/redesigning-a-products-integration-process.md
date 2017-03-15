@@ -1,5 +1,6 @@
 ---
 layout: post
+page-class: page--process
 title: "Redesigning a product's integration process."
 permalink: /case-studies/redesigning-a-products-integration-process/
 hide-hire-me-link: true

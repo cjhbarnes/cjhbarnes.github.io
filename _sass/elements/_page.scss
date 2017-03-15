@@ -8,6 +8,7 @@
 
 html {
   @include font-size(18px);
+  font-family: 'Roboto', sans-serif;
   line-height: 30px;
   color: $color-page-text;
   -webkit-text-size-adjust: 100%;

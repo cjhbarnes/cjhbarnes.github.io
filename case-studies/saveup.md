@@ -1,5 +1,6 @@
 ---
 layout: post
+page-class: page--save-up
 title: "SaveUP, a simple way to track how much you save."
 permalink: /case-studies/saveup/
 hide-hire-me-link: true

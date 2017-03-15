@@ -1,5 +1,6 @@
 ---
 layout: post
+page-class: page--metrics
 title: "Integration Statistics Dashboard"
 permalink: /case-studies/integration-statistics-dashboard/
 hide-hire-me-link: true
