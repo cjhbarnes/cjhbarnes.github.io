@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chris Barnes - Digital Product Designer</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>Portfolio of Chris Barnes. A digital designer from the UK.
 </description>
     <link>http://chrisbarnes.co/</link>
     <atom:link href="http://chrisbarnes.co/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 17 Mar 2017 17:29:47 -0300</pubDate>
-    <lastBuildDate>Fri, 17 Mar 2017 17:29:47 -0300</lastBuildDate>
+    <pubDate>Sat, 18 Mar 2017 11:56:28 -0300</pubDate>
+    <lastBuildDate>Sat, 18 Mar 2017 11:56:28 -0300</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
