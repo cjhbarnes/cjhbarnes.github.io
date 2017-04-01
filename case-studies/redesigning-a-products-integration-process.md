@@ -16,7 +16,7 @@ In late 2015 I led a project to redesign the process of integrating our clients 
 ### The current process
 First, we needed to gain an understanding of the current integration process. We interviewed both external and internal clients of various teams and created a number of customer journey maps where we documented objectives, tools used, tasks and most importantly the pain points of current integration process.
 
-<figure><img src="/images/process--cjm-1.jpg" alt="TAM customer journey mapping"></figure>
+<!-- <figure><img src="/images/process--cjm-1.jpg" alt="TAM customer journey mapping"></figure> -->
 
 ### What needed to be fixed
 During the mapping exercise it became apparent that we had to solve the following problems:
@@ -28,7 +28,7 @@ During the mapping exercise it became apparent that we had to solve the followin
 
 With these points in mind we proposed a new integration process (see images below). The Integration Dashboard, by centralising 90% of the required information, greatly reduced the number of tools and employees involved in the integration process. With management, tools and information in one place, there was no longer an issue with scattered documents and tools, and both the project manager and the client were able to manage the integration project leading to less confusion and quicker turnarounds.   
 
-<div class="unslider slideshow">
+<!-- <div class="unslider slideshow">
   <ul>
     <li><img src="/images/process--new-1.png" alt="New process step 1"></li>
     <li><img src="/images/process--new-2.png" alt="New process step 2"></li>
@@ -38,7 +38,7 @@ With these points in mind we proposed a new integration process (see images belo
     <li><img src="/images/process--new-6.png" alt="New process step 6"></li>
     <li><img src="/images/process--new-7.png" alt="New process step 7"></li>
   </ul>
-</div>
+</div> -->
 
 ### Building the MVP.
 A prototype of the integration dashboard was built and then tested with both internal and external clients. Once we had proved that our solution enhanced the customer experience, we worked closely with the development team to implement an MVP version of the dashboard, which can be seen below. 
