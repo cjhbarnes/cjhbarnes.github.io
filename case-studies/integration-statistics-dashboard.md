@@ -5,7 +5,7 @@ title: "Integration Statistics Dashboard"
 permalink: /case-studies/integration-statistics-dashboard/
 hide-hire-me-link: true
 next-case-study-title: "Redesigning a product's integration process."
-next-case-study-url: /case-studies/redesigning-a-products-integration-process/
+next-case-study-url: /case-studies/streamlining-an-integration-process/
 ---
 
 <figure class="image--masthead"><img src="/images/metrics--masthead.png" alt="Integration process"></figure>

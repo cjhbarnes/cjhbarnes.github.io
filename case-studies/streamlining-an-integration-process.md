@@ -1,8 +1,8 @@
 ---
 layout: post
 page-class: page--process
-title: "Redesigning a product's integration process."
-permalink: /case-studies/redesigning-a-products-integration-process/
+title: "Streamlining an integration process"
+permalink: /case-studies/streamlining-an-integration-process/
 hide-hire-me-link: true
 next-case-study-title: "Integration statistics dashboard"
 next-case-study-url: /case-studies/integration-statistics-dashboard/
@@ -14,12 +14,9 @@ next-case-study-url: /case-studies/integration-statistics-dashboard/
 In late 2015 I led a project to redesign the process of integrating our clients and their e-commerce platform with our products. The integration system in use was causing clients to become disengaged, causing processes to be delayed and therefore delaying the recurring revenue entering the company. The goal of this project was to improve the client's experience so they would become more engaged in the integration process and reduce the number of delays.
 
 ### The current process
-First, we needed to gain an understanding of the current integration process. We interviewed both external and internal clients of various teams and created a number of customer journey maps where we documented objectives, tools used, tasks and most importantly the pain points of current integration process.
+We interviewed both external and internal clients of various teams and created a number of customer journey maps where we documented objectives, tools used, tasks and most importantly the pain points of current integration process.
 
-<!-- <figure><img src="/images/process--cjm-1.jpg" alt="TAM customer journey mapping"></figure> -->
-
-### What needed to be fixed
-During the mapping exercise it became apparent that we had to solve the following problems:
+**What needed to be fixed:**
 
 1.  Large number of documents and tools scattered throughout the process, leading to confusion between client and project manager.
 2.  Decentralisation of information about the process.
