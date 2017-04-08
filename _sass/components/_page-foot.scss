@@ -20,7 +20,7 @@
 }
 
   .page-foot__cta {
-    margin-top: $global-spacing-unit * 4;
+    margin: $global-spacing-unit * 4 0;
     display: inline-block;
     @include font-size($font-size-h2, $important: true);
 
