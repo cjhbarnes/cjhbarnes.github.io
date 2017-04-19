@@ -8,11 +8,11 @@
  */
 
 /* Colour palette */
-$color-brand-primary:               #FFBA00 !default;
+$color-brand-primary:               #37C8AF !default;
 $color-brand-primary-highlight:     lighten($color-brand-primary, 5%) !default;
 $color-brand-primary-shadow:        darken($color-brand-primary,  5%) !default;
 
-$color-ui:                          #e7e7e7 !default;
+$color-ui:                          #CFD7DF !default;
 
 $color-white:                       #fff !default;
 
@@ -23,9 +23,9 @@ $color-grey-light:                  #B3B4B4;
 
 
 // Reassign literal variables to meaningful ones.
-$color-page-text:                       #28292B;
+$color-page-text:                       #323B43;
 $color-page-border:                     $color-ui;
-$color-page-background:                 #FAFAFA;
+$color-page-background:                 #EFF3F6;
 
 $color-links:                           $color-brand-primary;
 

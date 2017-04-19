@@ -15,6 +15,7 @@
   padding-top: $global-spacing-unit * 15;
   max-width: 900px;
   margin-bottom: 0;
+  font-weight: normal;
 
   @include mq($until: md) {
     padding-top: $global-spacing-unit * 6;
@@ -23,4 +24,12 @@
     span {
       color: $color-brand-primary;
     }
+}
+
+.page--home {
+
+  .page-head__text {
+    font-size: 60px;
+  }
+
 }

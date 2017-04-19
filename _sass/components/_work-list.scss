@@ -1,35 +1,89 @@
 /* ==========================================================================
-   WORK LIST
+   CASE STUDIES
    ========================================================================== */
 
-.work__list {
-  margin-top: $global-spacing-unit * 6;
-  line-height: 1;
+
+.cs__section-title {
+  color: #CFD7DF;
 }
 
-  .work__title,
-  .work__meta {
-    display: inline-block;
+.cs__item {
+  margin-top: $global-spacing-unit * 10;
+}
 
 
-    @include mq($until: md) {
-      display: block;
-      line-height: 1.5;
+.cs__image img {
+  @include transition(all .4s ease);
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.11);
+
+    &:hover {
+      box-shadow: 0 14px 28px 0 rgba(0,0,0,0.25);
     }
-  }
 
-  .work__title {
-    @include mq($from: md) {
-      margin: 0;
-    }
-  }
-
-  .work__meta {
-    color: $color-grey-light;
+  @include mq($until: md) {
+    margin-right: auto;
+    margin-left: auto;
     display: block;
-    margin-top: $global-spacing-unit;
-
-    @include mq($until: md) {
-      padding-left: 0;
-    }
   }
+}
+
+
+.cs__meta {
+  margin-top: $global-spacing-unit * 5;
+
+  @include mq($from: md) {
+    margin-top: 0;
+    padding-left: 48px;
+  }
+
+  @include mq($until: md) {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+  @include mq($until: small) {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+}
+
+// .cs__count {
+//   font-size: 16px;
+//   font-weight: bold;
+//   display: block;
+//   margin-bottom: $global-spacing-unit;
+//   display: none;
+
+//   @include mq($from: md) {
+//     display: block;
+//   }
+// }
+
+.cs__count {
+  display: none;
+}
+
+.cs__title {
+  border-bottom: 3px solid $color-ui;
+  padding-bottom: $global-spacing-unit * 3;
+
+  a {
+    color: $color-page-text;
+  }
+
+}
+
+.cs__description {
+  color: #59626A;
+}
+
+
+.cs__cta {
+  font-weight: bold;
+  color: $color-page-text;
+}
