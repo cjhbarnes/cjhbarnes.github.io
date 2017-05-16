@@ -11,7 +11,7 @@ next-case-study-url: /case-studies/integration-statistics-dashboard/
 <figure><img class="image--masthead" src="/images/process--masthead.png" alt="Integration process"></figure>
 
 ### The project
-In late 2015 I led a project to redesign the process of integrating our clients and their e-commerce platform with our products. The integration system in use was causing clients to become disengaged, causing processes to be delayed and therefore delaying the recurring revenue entering the company. The goal of this project was to improve the client's experience so they would become more engaged in the integration process and reduce the number of delays.
+In late 2016 I led a project to redesign the process of integrating our clients and their e-commerce platform with our products. The integration system in use was causing clients to become disengaged, causing processes to be delayed and therefore delaying the recurring revenue entering the company. The goal of this project was to improve the client's experience so they would become more engaged in the integration process and reduce the number of delays.
 
 ### The current process
 We interviewed both external and internal clients of various teams and created a number of customer journey maps where we documented objectives, tools used, tasks and most importantly the pain points of current integration process.
