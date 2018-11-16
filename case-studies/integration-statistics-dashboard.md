@@ -55,7 +55,7 @@ The task breakdown screen shows product owners the tasks which take the most tim
 <figure><img src="/images/metrics--task.png" alt="Wireframes"></figure>
 
 #### Integration breakdown
-This screen solved the problems of work distribution experienced by customer service managers by showing how many integration projects each technical account manager is co-ordinating. With this information in place, the overall time taken to complete each integration project was reduced by an average of 10%.
+This screen solved the problems of work distribution experienced by customer service managers by showing how many integration projects each technical account manager is co-ordinating.
 
 <figure><img src="/images/metrics--tam.png" alt="Wireframes"></figure>
 
