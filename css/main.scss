@@ -1,63 +1,65 @@
 ---
 ---
 
-/* ==========================================================================
-   CHRISBARNES.CO
-   ========================================================================== */
+// ==========================================================================
+// <ENTER PROJECT NAME>
+// ==========================================================================
 
-/*
-   SETTINGS
-   ========================================================================== */
+
+//
+// SETTINGS
+// ==========================================================================
 @import "settings/all";
 
 
-/*
-   TOOLS
-   ========================================================================== */
+//
+// TOOLS
+// ==========================================================================
 @import "tools/all";
 
 
-/*
-   GENERIC
-   ========================================================================== */
-@import "reset/box-sizing";
-@import "reset/normalize";
-@import "reset/reset";
-@import "reset/shared";
+//
+// RESETS
+// ==========================================================================
+@import "resets/all";
 
-/*
-   ELEMENTS
-   ========================================================================== */
-@import "elements/page";
-@import "elements/headings";
-@import "elements/links";
-@import "elements/quotes";
-@import "elements/code";
+
+//
+// ELEMENTS
+// ==========================================================================
+@import "elements/elements.page";
+@import "elements/elements.headings";
+@import "elements/elements.links";
+
 
 /*
    OBJECTS
    ========================================================================== */
 @import "objects/wrappers";
-@import "objects/list-ui";
 @import "objects/layout";
+
 
 /*
    COMPONENTS
    ========================================================================== */
-@import "components/navigation.scss";
-@import "components/page-head.scss";
-@import "components/band.scss";
-@import "components/work-list.scss";
-@import "components/post.scss";
-@import "components/page-foot.scss";
-@import "components/about.scss";
-@import "components/case-study.scss";
-@import "components/promo-next.scss";
-@import 'unslider/reset';
-@import 'unslider/dots';
+@import "components/bands";
+@import "components/footer";
+@import "components/nav";
+@import "components/page-title";
+@import "components/case-study-list";
+@import "components/about";
+@import "components/image-grid";
+@import "components/post-content";
+
 
 /*
    UTILITIES
    ========================================================================== */
-@import "utilities/headings";
-@import "utilities/widths";
+@import "unslider/dots";
+@import "unslider/reset";
+
+
+/*
+   UTILITIES
+   ========================================================================== */
+// @import "utilities/widths";

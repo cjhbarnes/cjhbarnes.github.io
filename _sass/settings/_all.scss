@@ -1,25 +1,15 @@
-/* ==========================================================================
-   SETTINGS
-   ========================================================================== */
+// ==========================================================================
+// SETTINGS
+// ==========================================================================
+
 
 /**
  * CONTENTS
  *
  * SETTINGS
- * Config...............Configuration and environment settings.
  * Global...............Globally-available variables and settings/config.
  * Colors...............Manage our color palette in isolation.
  */
 
 @import "settings.global";
 @import "settings.colors";
-
-//  Unslider 2 has navigation styles pre-designed. You can turn it off here.
-$unslider-dot-navigation: true;
-$unslider-dot-colour: #e7e7e7;
-
-//  Unslider 2 has navigation styles pre-designed. You can turn it off here.
-$unslider-transition-function: cubic-bezier(.42,0,.58,1);
-
-// Set a namespace for Unslider
-$unslider-namespace: 'unslider';

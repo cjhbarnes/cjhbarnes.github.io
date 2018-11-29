@@ -2,16 +2,17 @@
 layout: default
 ---
 
-{% include nav.html %}
-
-<div class="o-wrapper">
+{% include header.html %}
 
   <article class="post__content">
-
-    <time class="post__date" datetime="{{ page.date | date: "%Y-%m-%d" }}"  itemprop="datePublished">{{ page.date | date: "%-d %B, %Y" }}</time>
-
-    <h1 itemprop="name headline">{{ page.title }}</h1>
-
+    
+    <div class="o-wrapper">
+      <div class="band page-title page-title--post">
+        <h1 itemprop="name headline" class="">{{ page.title }}</h1>
+        <span class="subscript">Lead UX Designer <em>•</em> UR / UX / UI / Upskilling <em>•</em> 2017–18</span>
+      </div>
+    </div>
+    
     {{ content }}
 
   </article>

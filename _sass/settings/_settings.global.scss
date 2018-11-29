@@ -1,17 +1,26 @@
-///*----------------------------------*\
-//  #GLOBAL
-//\*----------------------------------*/
-
-// Project-level settings and setup.
+// ==========================================================================
+// GLOBAL SETTINGS
+// ==========================================================================
+// The global settings file contains any project-wide variables; things that
+// need to be made available to the entire codebase.
 
 // Base typographical styles and baseline grid.
-$font-family: 'Fira Sans', sans-serif;
-
+$font-family: 'roboto', sans-serif;
+$font-family-body: 'Lora', sana-serif;
 $global-font-size:    18px !default;
 $global-line-height:  30px !default;
 
 // Standardise some UI treatments.
 $global-radius:       3px !default;
 $global-transition:   0.333333333s !default;
+$global-spacing-unit: 8px;
 
-$global-spacing-unit:       8px;
+//  Unslider 2 has navigation styles pre-designed. You can turn it off here.
+$unslider-dot-navigation: true;
+$unslider-dot-colour: #e7e7e7;
+
+//  Unslider 2 has navigation styles pre-designed. You can turn it off here.
+$unslider-transition-function: cubic-bezier(.42,0,.58,1);
+
+// Set a namespace for Unslider
+$unslider-namespace: 'unslider';

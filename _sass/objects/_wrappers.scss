@@ -4,7 +4,7 @@
 
 .o-wrapper {
   @include clearfix();
-  max-width: 960px;
+  max-width: 960px + ($global-spacing-unit * 11);
   padding-right: $global-spacing-unit * 3;
   padding-left:  $global-spacing-unit * 3;
   margin-right: auto;

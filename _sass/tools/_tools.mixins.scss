@@ -1,0 +1,131 @@
+// ==========================================================================
+// MIXINS
+// ==========================================================================
+// Custom functions
+
+
+//
+// REM font size with PX fallback
+// ==========================================================================
+
+// example p { @include font-size(14px); }
+
+@mixin font-size($font-size, $important: false) {
+
+  @if (type-of($font-size) == number) {
+    @if (unit($font-size) != "px") {
+      @error "`#{$font-size}` needs to be a pixel value.";
+    }
+  } @else {
+    @error "`#{$font-size}` needs to be a number.";
+  }
+
+  @if ($important == true) {
+    $important: !important;
+  } @elseif ($important == false) {
+    $important: null;
+  } @else {
+    @error "`#{$important}` needs to be `true` or `false`."
+  }
+
+  // We provide a `px` fallback for old IEs not supporting `rem` values.
+  font-size: $font-size $important;
+  font-size: ($font-size / 16px) * 1rem $important;
+
+}
+
+
+
+
+//
+// OPACITY
+// ==========================================================================
+
+// example a { @include opacity(0.8); }
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+
+
+
+//
+// CLEARFIX - Mixin to drop micro clearfix into a selector
+// ==========================================================================
+
+// .simple-usage {
+//   @include clearfix();
+// }
+
+// .detailed-usage {
+//   @include clearfix(important);
+// }
+
+@mixin clearfix($important: false) {
+
+  // Determine whether or not to make declarations important.
+  @if ($important == false) {
+    $important: null;
+  } @else {
+    $important: !important;
+  }
+
+  &:after {
+    content: "" $important;
+    display: table $important;
+    clear: both $important;
+  }
+
+}
+
+
+
+
+//
+// TRANSITIONS
+// ==========================================================================
+
+// example a { @include transition(color .3s ease); }
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+
+
+
+//
+// REM as a value of declaration
+// ==========================================================================
+// Mixin to create a declaration whose value is a rem unit. Also provide pixel
+// fallback.
+
+// .simple-usage {
+//   @include cb-rem(padding, 10px);
+// }
+
+@mixin cb-rem($property, $value) {
+
+  @if (type-of($value) == number) {
+
+    @if (unit($value) != "px") {
+      @error "`#{$value}` needs to be a pixel value.";
+    }
+
+  } @else {
+    @error "`#{$value}` needs to be a number.";
+  }
+
+  // We provide a `px` fallback for old IEs not supporting `rem` values.
+  #{$property}: $value;
+
+  #{$property}: cb-rem($value);
+
+}

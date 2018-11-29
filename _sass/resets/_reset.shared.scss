@@ -1,0 +1,23 @@
+// ==========================================================================
+// SHARED
+// ==========================================================================
+// Shared declarations for certain elements.
+
+
+address,
+h1, h2, h3, h4, h5, h6,
+blockquote, p, pre,
+dl, ol, ul,
+hr,
+table,
+fieldset {
+  @include cb-rem(margin-bottom, $global-spacing-unit*3);
+}
+
+
+
+
+// Consistent indentation for lists.
+dd, ol, ul {
+  margin-left: $global-spacing-unit * 6;
+}
