@@ -1,0 +1,43 @@
+.page-foot {
+  border-top: 1px solid $color-page-border;
+  padding: $global-spacing-unit*6 0 $global-spacing-unit * 3;
+}
+
+.page-foot__cta {
+  font-size: 22px;
+  margin-bottom: $global-spacing-unit * 3;
+  font-family: $font-family;
+}
+
+.page-foot__cta,
+.social-cta {
+  display: inline-block;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  line-height: 1;
+  font-weight: 500;
+  
+    &:hover {
+      &:before {
+        opacity: .8;
+      }
+    }
+
+    &:before {
+      content: '';
+      height: 40%;
+      background: #c2e065;
+      width: 100%;
+      position: absolute;
+      z-index: -1;
+      bottom: 0;
+      left: 0;
+      opacity: .4;
+      -webkit-transition: all .2s ease;
+      -moz-transition: all .2s ease;
+      -ms-transition: all .2s ease;
+      -o-transition: all .2s ease;
+    }
+}

@@ -1,19 +1,19 @@
-/* ==========================================================================
-   TOOLS
-   ========================================================================== */
+// ==========================================================================
+// TOOLS
+// ==========================================================================
+
 
 /**
  * CONTENTS
  *
  * TOOLS
- * Config...............Configuration and environment settings.
- * Global...............Globally-available variables and settings/config.
- * Colors...............Manage our color palette in isolation.
+ * Functions...............Globally-available variables and settings/config.
+ * Mixins...............Manage our color palette in isolation.
+ * MQ-Config...............Manage our color palette in isolation.
+ * MQ-SCSS...............Globally-available variables and settings/config.
  */
 
-@import "tools/_clearfix";
-@import "tools/mq-config";
-@import "tools/_mq.scss";
-@import "tools/_opacity";
-@import "tools/_rem";
-@import "tools/_transitions";
+@import "tools.functions";
+@import "tools.mixins";
+@import "tools.mq-config";
+@import "tools.mq.scss";

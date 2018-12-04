@@ -1,0 +1,90 @@
+/* ==========================================================================
+   NAVIGATION
+   ========================================================================== */
+
+.page-head {
+  @include clearfix();
+}
+
+.site-nav {
+  padding: $global-spacing-unit *3;
+  font-family: $font-family;
+}
+
+.logo {
+  max-width: 46px;
+  width: 100%;
+}
+
+.site-nav__list {
+  float: right;
+  line-height: $global-spacing-unit * 3;
+  height: $global-spacing-unit * 3;
+  margin: 0;
+
+  @include mq($until: nav) {
+    height: auto;
+    line-height: $global-spacing-unit * 4;
+    text-align: right;
+  }
+
+}
+
+.site-nav__item {
+  display: inline-block;
+  padding: 0 $global-spacing-unit * 5;
+  
+  @include mq($from: nav) {
+    &:last-of-type {
+      padding-right: 0;
+    }
+  }
+
+  @include mq($until: nav) {
+    display: block;
+  }
+
+}
+
+.site-nav__link {
+  @include font-size(12px);
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  line-height: 1;
+  
+    &:hover {
+      &:before {
+        opacity: .8;
+      }
+    }
+
+    &:before {
+      content: '';
+      height: 40%;
+      background: #c2e065;
+      width: 100%;
+      position: absolute;
+      z-index: -1;
+      bottom: 0;
+      left: 0;
+      opacity: .0;
+      -webkit-transition: all .2s ease;
+      -moz-transition: all .2s ease;
+      -ms-transition: all .2s ease;
+      -o-transition: all .2s ease;
+    }
+
+}
+
+
+.page--home .site-nav__home,
+.page--about .site-nav__about,
+.page--blog .site-nav__blog {
+  &:before {
+    opacity: 1;
+  }
+}

@@ -1,81 +1,10 @@
 ---
 layout: page
 page-class: page--home
-title:
-masthead-title: Hello. My name is <span>Chris Barnes</span>. I’m a multi-disciplinary UX & UI Designer.
 ---
 
-<section class="band band--tint case-studies">
+<section class="band page-title page-title--home">
+  <h1>I'm Chris Barnes. <br><span class="text-light">UX & product designer.</span></h1>
+</section>
 
-  <div class="o-wrapper">
-
-    <h2 class="u-h1 cs__section-title">Case Studies</h2>
-
-      <div class="o-layout">
-
-        <div class="cs__item">
-          <div class="cs__image o-layout__item u-3/5@md">
-            <a href="/case-studies/integration-statistics-dashboard/"><img src="images/cs-01-image.png" alt="Integration statistics dashboard"></a>
-          </div>
-          <div class="cs__meta o-layout__item u-2/5@md">
-            <span class="cs__count">01.</span>
-            <h2 class="cs__title">
-              <a href="/case-studies/integration-statistics-dashboard/">Integration statistics dashboard</a>
-            </h2>
-            <p class="cs__description">A dashboard to provide upper management and project managers the required metrics and information regarding client integrations.</p>
-            <a href="/case-studies/integration-statistics-dashboard/" class="cs__cta fancy-link">Read more</a>
-          </div>
-        </div>
-
-        <div class="cs__item">
-          <div class="cs__image o-layout__item u-3/5@md">
-            <a href="/case-studies/streamlining-an-integration-process/"><img src="images/cs-02-image.png" alt="Streamlining an integration process"></a>
-          </div>
-          <div class="cs__meta o-layout__item u-2/5@md">
-            <span class="cs__count">02.</span>
-            <h2 class="cs__title">
-              <a href="/case-studies/streamlining-an-integration-process/">Streamlining an integration process</a>
-            </h2>
-            <p class="cs__description">Redesign of the process of integrating e-commerce platforms with our e-commerce personalisation products.</p>
-            <a href="/case-studies/streamlining-an-integration-process/" class="cs__cta fancy-link">Read more</a>
-          </div>
-        </div>
-
-        <div class="cs__item">
-          <div class="cs__image o-layout__item u-3/5@md">
-            <a href="/case-studies/saveup/"><img src="images/cs-03-image.png" alt="Integration statistics dashboard"></a>
-          </div>
-          <div class="cs__meta o-layout__item u-2/5@md">
-            <span class="cs__count">03.</span>
-            <h2 class="cs__title">
-              <a href="/case-studies/saveup/">SaveUP</a>
-            </h2>
-            <p class="cs__description">An application which lets users simply track how much they've saved and what they're on track to save.</p>
-            <a href="/case-studies/saveup/" class="cs__cta fancy-link">Read more</a>
-          </div>
-        </div>
-
-      </div>
-
-  </div>
-
-</section> <!-- END: case-studies -->
-
-<section class="band post">
-
-  <div class="o-wrapper">
-
-    <h3 class="u-h1">Latest Articles</h3>
-
-    <ul class="list-ui list-ui--small post__list">
-      {% for post in site.posts offset: 0 limit: 4  %}
-      <li class="list-ui__item">
-        <time class="post__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%-d %B, %Y" }}</time>
-        <h3 class="post__title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      </li>
-      {% endfor %}
-    </ul>
-
-  </div>
-
-</section> <!-- END: post -->
+{% include case-study-list.html %}
