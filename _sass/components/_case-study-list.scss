@@ -54,6 +54,18 @@
     }
   }
   
+  &.cs__image--assets {
+    &:before {
+      background-image: url("../images/cs-assets.png");
+      transform: none;
+    }
+  }
+  &.cs__image--komgo {
+    &:before {
+      background-image: url("../images/cs-komgo.png");
+      transform: none;
+    }
+  }
   &.cs__image--integration {
     &:before {
       background-image: url("../images/inter-before-img.png");
@@ -71,7 +83,7 @@
   }
 
   &:before {
-    background-image: url("../images/test.webp");
+    // background-image: url("../images/test.webp");
     content: '';
     position: absolute;
     top: 0;

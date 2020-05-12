@@ -101,3 +101,12 @@
     color: #a5b3be;
   }
 }
+
+.page--assets,
+.page--komgo {
+  .full-image {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+}

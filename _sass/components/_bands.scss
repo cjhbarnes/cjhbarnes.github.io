@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .band {
-  padding: $global-spacing-unit * 10 0;
+  padding: $global-spacing-unit * 5 0;
 }
 
 .band--top {
@@ -12,4 +12,8 @@
 
 .band--no-top {
   padding-top: 0;
+}
+
+.band--light {
+	background-color: #F0F0F2;
 }
